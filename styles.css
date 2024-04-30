@@ -1,18 +1,15 @@
 header {
   text-align: center;
-
   margin-bottom: 20px;
 }
 
 body {
   font-family: Futura, Arial, sans-serif;
-  
 }
 
 header h1 {
   color: #003366;
 }
-
 
 .main-menu {
   background-color: rgba(0, 175, 245, 0.712);
@@ -42,7 +39,7 @@ header h1 {
 }
 
 .main-menu ul li a:hover {
-  background-color: #e49ffff6;
+  background-color: #e2a4fbf6;
 }
 
 .dropdown-menu {
@@ -78,7 +75,7 @@ body {
   margin: 0;
   padding: 0;
   border: 5px solid #ccc;
-  background-image: url("PastelPinkPurpleWave.png"); 
+  background-image: url("PastelPinkPurpleWave.png");
   background-size: cover;
 }
 
@@ -102,20 +99,13 @@ body {
 
 .icon {
   width: calc(25% - 10px);
-
   text-align: center;
-
   border: 2px solid #ccc;
-
   padding: 10px;
-
   box-sizing: border-box;
-
   margin-bottom: 20px;
-
   margin-right: 20px;
   background: linear-gradient(to right, #66c2fb, #8f94fb);
-
   transition: background-color 0.3s;
 }
 
@@ -127,29 +117,22 @@ body {
 
 .icon:active {
   background-color: #e0e0e0;
-  
 }
 
 .icon img {
   max-width: 100%;
-
   height: auto;
 }
 
 .label {
   display: block;
-
   margin-top: 10px;
 }
 
 img {
   display: block;
-
   margin: 0 auto;
-
   width: 100%;
-
   max-width: 1200px;
-
   max-height: 250px;
 }
